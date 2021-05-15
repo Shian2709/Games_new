@@ -1,2 +1,2 @@
-# Games_new
+# Games_news
 Noticias de juegos
