@@ -1,0 +1,77 @@
+.barra_navegacion{
+    background-color: rgba(10, 10, 10, 0.753);
+    text-align: center; 
+    padding: 15px;
+    margin: 0%;
+    position: relative;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barra_navegacion ul li a:hover{
+    background-color: rgb(233, 233, 233);
+    color: black;
+    width: 20%;
+    padding: 10px;
+}
+.barra_navegacion ul li {
+display: inline-block;
+float: left; 
+width: 7%;
+}
+.barra_navegacion ul li a{
+color:rgb(255, 255, 255);
+text-decoration: none;
+}
+.inicio{
+ width: 1920px; 
+ background-image: url(img/fondo.jpg);
+ background-size: cover;
+ height: 500px;
+ 
+}
+.nombre{
+font-size: 65px;
+color: white;
+font-family: 'Anton', sans-serif;
+margin-left: 12%;
+padding-top: 3%;
+}
+.descripcion{
+color: white;
+font-size: 22px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 410px;
+margin-left: 12%;
+}
+.lo_mas_visto{
+   background-color: rgba(10, 10, 10, 0.753);
+   text-align: center;
+   height: 70px;
+}
+.lo_mas_visto p{
+    font-size: 45px;
+    font-family: 'Lobster', 'cursive';
+    color: white;
+}
+.img{
+    width: 80%;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    transition: width .7s, height .7s;
+ 
+    border-radius: 20px;
+}
+/*img:hover {
+        width: 90%;
+        height: 600px;
+        box-shadow: 0 0 15px white, 0 0 15px white, 0 0 15px white
+}*/ 
+body{
+    background-color: rgb(41, 39, 39);
+    margin: 0;
+    padding: 0;
+}
+*{
+    max-width: 100%
+}
